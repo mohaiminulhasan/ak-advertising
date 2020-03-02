@@ -1,0 +1,9 @@
+.topbar {
+    background-color: transparent;
+    line-height: 70px;
+}
+
+.searchbox:focus {
+    border: 1px solid slategray;
+    box-shadow: none;
+}

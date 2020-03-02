@@ -1,0 +1,32 @@
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 9px;
+    margin-bottom: 20px;
+}
+
+.clients .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 9px;
+}
+
+.clients > .column > img {
+    margin-top: 18px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .clients .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .clients .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}

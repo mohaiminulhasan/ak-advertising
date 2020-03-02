@@ -1,0 +1,36 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 9px;
+    margin-bottom: 20px;
+}
+
+.projects > .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 9px;
+}
+
+.projects > .column > img {
+    margin-top: 18px;
+    vertical-align: middle;
+    width: 100%;
+
+    /* border: 2px solid darkslategray; */
+    border-radius: 10px;
+    box-shadow: 0 0 4px darkslategray;
+}
+
+@media screen and (max-width: 800px) {
+    .projects > .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projects > .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
